@@ -5,13 +5,13 @@
   "private": false,
   "description": "React Typescript Library Boilerplate",
   "author": "James Olson",
-  "homepage": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate",
+  "homepage": "https://github.com/Dhaiwat10/react-india-package-example",
   "bugs": {
-    "url": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate/issues"
+    "url": "https://github.com/Dhaiwat10/react-india-package-example/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sixfootsixdesigns/React-Library-Boilerplate.git"
+    "url": "git+https://github.com/Dhaiwat10/react-india-package-example.git"
   },
   "scripts": {
     "build": "yarn clean && rollup -c",
