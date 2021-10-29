@@ -1,5 +1,5 @@
 {
-  "name": "sixfootsixdesigns-react-library-boilerplate",
+  "name": "dhaiwat-ui",
   "license": "MIT",
   "version": "0.0.0",
   "private": false,
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/sixfootsixdesigns/React-Library-Boilerplate.git"
   },
   "scripts": {
-    "build": "yarn clean; rollup -c",
+    "build": "yarn clean && rollup -c",
     "clean": "rimraf dist",
     "dev": "yarn storybook",
     "format": "prettier --write \"src/**/*.{ts,tsx,json,js,jsx}\"",
@@ -34,6 +34,7 @@
   "module": "index.esm.js",
   "types": "index.d.ts",
   "dependencies": {
+    "@fontsource/inter": "^4.5.0",
     "classnames": "^2.2.6"
   },
   "peerDependencies": {

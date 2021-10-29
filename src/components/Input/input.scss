@@ -1,0 +1,12 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  input {
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 400px;
+  }
+}
