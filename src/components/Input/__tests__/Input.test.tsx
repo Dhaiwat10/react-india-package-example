@@ -1,16 +1,24 @@
 import React from 'react';
-import { Input, InputProps } from '..';
-import { render, screen } from '@testing-library/react';
+import { Input } from '..';
+import { render, fireEvent } from '@testing-library/react';
 
-const defaultProps: InputProps = {
-  
+const SetupInput: React.FC<{ label: string }> = (props) => {
+  const [value, setValue] = React.useState('');
+
+  return <Input {...props} value={value} onChange={setValue} />;
 };
 
-const setup = (props = defaultProps) => render(<Input {...props} />);
+const setup = () => {
+  const utils = render(<SetupInput label='Test' />);
+  const input = utils.getByLabelText('Test') as HTMLInputElement;
+  return {
+    input,
+    ...utils,
+  };
+};
 
-describe('Input', () => {
-  it('renders', () => {
-    setup({children: 'foo'});
-    expect(screen.getByText('foo'));
-  });
+test('It should take in inputs correctly', () => {
+  const { input } = setup();
+  fireEvent.change(input, { target: { value: '23' } });
+  expect(input.value).toBe('23');
 });

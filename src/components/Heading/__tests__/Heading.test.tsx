@@ -1,16 +1,18 @@
 import React from 'react';
-import { Heading, HeadingProps } from '..';
-import { render, screen } from '@testing-library/react';
-
-const defaultProps: HeadingProps = {
-  
-};
-
-const setup = (props = defaultProps) => render(<Heading {...props} />);
+import { Heading } from '..';
+import { render } from '@testing-library/react';
 
 describe('Heading', () => {
   it('renders', () => {
-    setup({children: 'foo'});
-    expect(screen.getByText('foo'));
+    const { getByText } = render(<Heading>Dhaiwat</Heading>);
+    const heading = getByText('Dhaiwat');
+    expect(heading).toBeTruthy();
+  });
+
+  it('_color_ prop', () => {
+    const { getByText } = render(<Heading color='red'>Dhaiwat</Heading>);
+    const heading = getByText('Dhaiwat');
+    expect(heading).toBeTruthy();
+    expect(heading.style.color).toBe('red');
   });
 });
