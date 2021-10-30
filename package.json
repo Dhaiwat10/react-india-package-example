@@ -3,8 +3,8 @@
   "license": "MIT",
   "version": "0.0.0",
   "private": false,
-  "description": "React Typescript Library Boilerplate",
-  "author": "James Olson",
+  "description": "My React UI library",
+  "author": "Dhaiwat Pandya",
   "homepage": "https://github.com/Dhaiwat10/react-india-package-example",
   "bugs": {
     "url": "https://github.com/Dhaiwat10/react-india-package-example/issues"
@@ -33,9 +33,7 @@
   "main": "index.js",
   "module": "index.esm.js",
   "types": "index.d.ts",
-  "dependencies": {
-    "classnames": "^2.2.6"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
@@ -61,7 +59,6 @@
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
     "babel-loader": "^8.2.1",
-    "classnames": "^2.2.6",
     "conventional-changelog-conventionalcommits": "^4.4.0",
     "css-loader": "^5.0.1",
     "eslint": "^7.14.0",

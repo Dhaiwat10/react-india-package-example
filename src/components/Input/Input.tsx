@@ -17,7 +17,7 @@ export const Input: React.FC<InputProps> = ({ value, onChange, label, required =
         type='text'
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        required
+        required={required}
       />
     </div>
   );
