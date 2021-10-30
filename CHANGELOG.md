@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Dhaiwat10/react-india-package-example/compare/v1.0.1...v1.1.0) (2021-10-30)
+
+
+### Features
+
+* add Button ([fe62c98](https://github.com/Dhaiwat10/react-india-package-example/commit/fe62c98c98f8ef4fd4a00f6e898f16e6146c9ba7))
+
 ### [1.0.1](https://github.com/Dhaiwat10/react-india-package-example/compare/v1.0.0...v1.0.1) (2021-10-29)
 
 
