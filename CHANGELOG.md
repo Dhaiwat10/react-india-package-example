@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/Dhaiwat10/react-india-package-example/compare/v1.1.0...v1.2.0) (2021-11-03)
+
+
+### Features
+
+* add code block ([03dd16d](https://github.com/Dhaiwat10/react-india-package-example/commit/03dd16deb8c5a976d91164acef28e7421e385093))
+* add codeblock ([72d0103](https://github.com/Dhaiwat10/react-india-package-example/commit/72d0103087a3b997df90d3aef804afceb93c6dd3))
+
 ## [1.1.0](https://github.com/Dhaiwat10/react-india-package-example/compare/v1.0.1...v1.1.0) (2021-10-30)
 
 
