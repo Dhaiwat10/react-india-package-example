@@ -4,7 +4,5 @@ export * from './Heading';
 export * from './Input';
 
 export * from './Button';
-export * from './Marquee'
 
-export * from './CodeBlock'
-
+export * from './CodeBlock';
